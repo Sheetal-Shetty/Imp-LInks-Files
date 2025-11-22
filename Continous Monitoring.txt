@@ -1,0 +1,46 @@
+https://tecadmin.net/install-nagios-monitoring-server-on-ubuntu/    ---- Installation of Nagios on ubuntu 18.04 
+
+
+https://www.fosstechnix.com/how-to-install-nagios-on-ubuntu-24-04-lts/    ---- Installation on Ubuntu 24.04 
+
+
+
+Add this line to /usr/local/nagios/etc/nagios.cfg 
+
+cfg_dir=/usr/local/nagios/etc/servers  
+
+
+
+https://tecadmin.net/monitor-remote-linux-host-using-nagios/   ----->  Monitor Linux Hosts
+
+https://tecadmin.net/monitor-remote-windows-host-using-nagios/   -----> Monitor Windows Host 
+
+
+
+Commands to monitor are available in /usr/local/nagios/etc/objects/commands.cfg
+
+
+
+http://amar-linux.blogspot.com/2017/04/how-to-monitor-server-memory-usage-with.html   ---- basic explaination of Commnands and writing service files 
+
+https://sysadmins.co.za/monitor-your-first-host-and-services-with-nagios/  ---- basic explaination of Commnands and writing service files 
+
+
+https://www.tutorialspoint.com/nagios/nagios_nrpe.htm   --- complete services for monitoring host 
+
+
+
+sampple /usr/local/nagios/etc/servers/MyLinuxHost001.cfg 
+
+
+https://www.itzgeek.com/featured/monitor-mysql-server-with-nagios-3-4.html     --- Mysql Connect
+
+
+https://www.psychz.net/client/question/en/how-to-monitor-mysql-using-nagios.html    --- Mysql Connect 
+
+
+install mysql-client 
+
+sudo apt-get install -y libdbd-mysql-perl 
+
+sudo apt-get install -y libdbi-mysql-perl
