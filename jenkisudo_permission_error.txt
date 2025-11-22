@@ -1,0 +1,15 @@
+########Solve Jenkins sudo password ####
+
+sudo usermod -aG sudo jenkins
+
+###edit file visudo####
+
+sudo visudo
+
+###add this line under sud section####
+
+jenkins ALL=(ALL) NOPASSWD: ALL
+
+###restrat jenkins###
+
+sudo systemctl restart jenkins
