@@ -1,0 +1,24 @@
+<LifecycleConfiguration>
+    <Rule>
+        <ID>Move-Previous-Versions-to-Standard-IA</ID>    <Rule>
+        <ID>Delete-Previous-Versions-After-365-Days</ID>
+        <Status>Enabled</Status>
+        <Filter/>
+        <NoncurrentVersionExpiration>
+            <NoncurrentDays>365</NoncurrentDays>
+        </NoncurrentVersionExpiration>
+    </Rule>
+</LifecycleConfiguration>
+
+        <Status>Enabled</Status>
+        <Filter/>
+        <NoncurrentVersionTransitions>
+            <NoncurrentVersionTransition>
+                <NoncurrentDays>30</NoncurrentDays>
+                <StorageClass>STANDARD_IA</StorageClass>
+            </NoncurrentVersionTransition>
+        </NoncurrentVersionTransitions>
+    </Rule>
+
+
+
